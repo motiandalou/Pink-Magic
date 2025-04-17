@@ -1,0 +1,80 @@
+{
+  "name": "Pink Magic", // 主题名字
+  "type": "dark", // 主题类型：dark（黑暗） / light（明亮）
+
+  // =======================
+  // 界面整体颜色配置（非代码）
+  // =======================
+  "colors": {
+    "menu.selectionBackground": "#ff66c4",
+    "editor.background": "#1f1a1c", // 编辑器背景色
+    "editor.foreground": "#ffd6f5", // 默认文字颜色
+    "editorCursor.foreground": "#ff66cc", // 光标颜色
+    "editor.lineHighlightBackground": "#2a1f24", // 当前行高亮背景色
+    "editorLineNumber.foreground": "#b38fbf", // 行号颜色
+    "editor.selectionBackground": "#ff99cc33", // 选中文本背景颜色（带透明度）
+    "editorIndentGuide.background": "#66336633", // 缩进辅助线颜色
+    "editorWhitespace.foreground": "#cc99cc55", // 空格/制表符颜色（可视化时）
+    "sideBar.background": "#1c171a", // 左侧侧边栏背景色
+    "statusBar.background": "#331a2b", // 底部状态栏背景色
+    "tab.activeBackground": "#2e1b2e", // 当前打开的标签背景色
+    "tab.inactiveBackground": "#1f1a1c", // 其他未激活标签背景色
+    "activityBar.background": "#331a2b" // 最左侧 Activity Bar 背景色
+  },
+
+  // =======================
+  // 语法高亮颜色配置
+  // =======================
+  "tokenColors": [
+    {
+      "scope": "comment", // 注释
+      "settings": {
+        "foreground": "#a67ea6", // 紫色偏灰，文艺风
+        "fontStyle": "italic" // 斜体
+      }
+    },
+    {
+      "scope": "string", // 字符串，如 "hello"
+      "settings": {
+        "foreground": "#ffb3d9" // 糖果粉，柔和可爱
+      }
+    },
+    {
+      "scope": "variable", // 变量名，如 `name`、`age`
+      "settings": {
+        "foreground": "#ff66cc" // 明亮粉色，突出
+      }
+    },
+    {
+      "scope": "keyword", // 关键字，如 `if`、`return`
+      "settings": {
+        "foreground": "#ff80bf", // 稍浅的粉色
+        "fontStyle": "bold" // 加粗，更显眼
+      }
+    },
+    {
+      "scope": "function", // 函数名，如 `getUser()`
+      "settings": {
+        "foreground": "#ff99cc" // 清新粉，区分变量
+      }
+    },
+    {
+      "scope": "number", // 数字，如 `123`、`3.14`
+      "settings": {
+        "foreground": "#ffccff" // 淡紫色，视觉平衡
+      }
+    },
+    {
+      "scope": "type", // 类型，如 `string`, `boolean`
+      "settings": {
+        "foreground": "#ffcce6" // 粉中带白，显得轻巧
+      }
+    },
+    {
+      "scope": "constant.language", // 内置常量，如 `null`, `undefined`
+      "settings": {
+        "foreground": "#ff66cc" // 与变量同色，形成对称风格
+      }
+    }
+  ]
+}

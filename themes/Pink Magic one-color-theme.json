@@ -1,0 +1,113 @@
+{
+  "name": "Pink Magic Cyberpunk",
+  "type": "dark",
+  "colors": {
+    "menu.selectionBackground": "#ff66c4", // 鼠标悬浮菜单项背景
+    "editor.background": "#0d0d0d", // 黑夜风底色
+    "editor.foreground": "#fdf6ff", // 微紫白，清晰主字体
+    "editorCursor.foreground": "#39ff14", // 荧光绿光标
+    "editor.lineHighlightBackground": "#1a1a1a", // 当前行背景（轻微差异）
+    "editorLineNumber.foreground": "#888888", // 行号灰
+    "editor.selectionBackground": "#ff00ff33", // 选中区域带紫光感
+    "editorIndentGuide.background": "#222222", // 缩进线
+    "editorWhitespace.foreground": "#444444", // 空格可视化点
+    "sideBar.background": "#121212", // 边栏暗黑
+    "statusBar.background": "#1e1e1e", // 状态栏深色
+    "tab.activeBackground": "#202020", // 激活标签背景
+    "tab.inactiveBackground": "#121212", // 未激活标签背景
+    "activityBar.background": "#1e1e1e" // 最左侧栏
+  },
+  "tokenColors": [
+    {
+      "scope": "comment",
+      "settings": {
+        "foreground": "#6c6c6c", // 灰色注释
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "string",
+      "settings": {
+        "foreground": "#ff8ae2" // 柔粉紫字符串
+      }
+    },
+    {
+      "scope": "variable",
+      "settings": {
+        "foreground": "#ff46b9" // 高亮粉变量
+      }
+    },
+    {
+      "scope": "function",
+      "settings": {
+        "foreground": "#39ff14" // 荧光绿函数名
+      }
+    },
+    {
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#00ffff", // 青蓝关键词
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "number",
+      "settings": {
+        "foreground": "#00ffaa" // 数字青绿
+      }
+    },
+    {
+      "scope": "type",
+      "settings": {
+        "foreground": "#ffcc00" // 金黄色类型名
+      }
+    },
+    {
+      "scope": "constant.language",
+      "settings": {
+        "foreground": "#ff66ff" // 常量紫粉
+      }
+    },
+    {
+      // 标签名（div、body、span 等）
+      "scope": "entity.name.tag.html",
+      "settings": {
+        "foreground": "#ff66ff" // 举例：常量紫粉
+      }
+    },
+    {
+      "scope": [
+        "entity.other.attribute-name.class.css",
+        "entity.other.attribute-name.class.scss",
+        "entity.other.attribute-name.class.less",
+        "entity.other.attribute-name.class.html",
+        "entity.other.attribute-name.class.vue"
+      ],
+      "settings": {
+        "foreground": "#FF66C4", // 荧光粉红色
+        "fontStyle": "bold"
+      }
+    },
+    {
+      // class="value" 里的值部分
+      "scope": "string.quoted.double.html",
+      "settings": {
+        "foreground": "#ff66c4" // 粉色
+      }
+    },
+    {
+      // 内联 style 内容（写 CSS 的）
+      "scope": "source.css.embedded.html",
+      "settings": {
+        "foreground": "#39FF14" // 荧光绿色
+      }
+    },
+    {
+      "scope": "storage.type.function",
+      "settings": {
+        "foreground": "#ff66ff", // #FF1C75
+        "fontStyle": "bold"
+      }
+    }
+  ]
+}

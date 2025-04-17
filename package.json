@@ -1,0 +1,37 @@
+{
+  "name": "pink-magic",
+  "version": "1.0.1",
+  "displayName": "Pink Magic",
+  "description": "pink theme",
+  "publisher": "wei-jiang",
+  "author": {
+    "name": "WEI.JIANG",
+    "email": "cn.jiangwei.1997@gmail.com"
+  },
+  "icon": "images/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/motiandalou/Pink-Magic.git"
+  },
+  "license": "Apache-2.0",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Pink Magic one",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Pink Magic one-color-theme.json"
+      },
+      {
+        "label": "Pink Magic two",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Pink Magic two-color-theme.json"
+      }
+    ]
+  }
+}
